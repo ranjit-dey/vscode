@@ -95,7 +95,6 @@ Necessary Files to download :
 * **Prettier/ESLint conflicts?** Ensure `editor.defaultFormatter` points to Prettier for the languages you want, and that ESLint’s autofix rules don’t conflict with Prettier (use `eslint-config-prettier` to avoid rule clashes).
 * **Live Preview path wrong?** Update `livePreview.defaultPreviewPath` to a valid HTML file path on your machine.
 
-
 ## ❤️ Final tips
 
 * Tweak `editor.fontSize`, `lineHeight`, and `tabSize` to your comfort — small changes make big UX improvements.
