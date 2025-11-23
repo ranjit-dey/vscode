@@ -72,22 +72,6 @@ Necessary Files to download :
 
 ---
 
-## 🧰 Extra setup (recommended)
-
-* **Enable Settings Sync** (gear icon → Turn on Settings Sync) to share this config across machines.
-
-* **Install Prettier & ESLint locally in your projects** (recommended):
-
-  ```bash
-  npm install --save-dev prettier eslint
-  ```
-
-  Having local versions ensures consistent formatting across team members/CI.
-
-* **Tailwind projects**: install `tailwindcss` and configure `tailwind.config.js` so Tailwind IntelliSense works correctly.
-
----
-
 ## 🔧 Troubleshooting
 
 * **Font not applied?** Restart VS Code. Make sure the font is installed system-wide. Double-check spelling in `editor.fontFamily`.
