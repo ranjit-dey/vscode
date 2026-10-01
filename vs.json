@@ -1,0 +1,240 @@
+{
+    "window.titleBarStyle": "custom",
+
+    /* == WORKBENCH: LAYOUT & UI == */
+    "workbench.activityBar.location": "default",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 10,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.layoutControl.enabled": false,
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": true,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "none",
+
+    /* == WORKBENCH: THEME & ICONS == */
+    "workbench.colorTheme": "The Best Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "oneDarkPro.bold": true,
+    "oneDarkPro.markdownStyle": true,
+    "oneDarkPro.italic": true,
+
+    /* == CUSTOM COLORS == */
+    "workbench.colorCustomizations": {
+        "activityBar.border": "#5c63707d",
+        "activityBar.background": "#00030a",
+        "activityBar.activeBorder": "#5c7067",
+        "activityBarBadge.background": "#f50c0c",
+
+        "editor.background": "#00030a",
+        "editorGroup.border": "#565656",
+        "editorCursor.foreground": "#528BFF",
+        "editorLineNumber.foreground": "#5c63707d",
+        "editorGroupHeader.tabsBackground": "#00030a",
+        "editor.lineHighlightBackground": "#0b101b7a",
+        "editorLineNumber.activeForeground": "#FFFFFF",
+        "editorGroupHeader.noTabsBackground": "#00030a",
+
+        "panel.background": "#00030a",
+        "panelTitle.activeBorder": "#e7e7e700",
+        "panelTitle.border": "#3e4452",
+
+        "panel.border": "#3e4452",
+        "terminal.tab.activeBorder": "#30f330",
+
+        "sideBar.border": "#5c63707d",
+        "sideBar.background": "#000107",
+        "sideBarTitle.border": "#5c63707d",
+        "sideBarTitle.foreground": "#45d45f",
+        "sideBarSectionHeader.background": "#00030a",
+        "statusBar.border": "#5c63707d",
+        "statusBar.background": "#00030a",
+        "statusBar.noFolderBackground": "#00030a",
+
+        "tab.border": "#5c63707d",
+        "tab.activeBorder": "#00030a",
+        "tab.activeBorderTop": "#53a5b1",
+        "tab.inactiveBackground": "#000107",
+        "tab.activeBackground": "#00030a",
+        "scrollbar.shadow": "#5c637000",
+
+        "terminal.background": "#00030a",
+
+        "titleBar.activeBackground": "#00030a",
+        "titleBar.inactiveBackground": "#00030a",
+        "titleBar.border": "#5c63707d",
+
+        "editorGroupHeader.tabsBorder": "#5c63704e",
+    },
+
+    /* == EDITOR: CORE BEHAVIOR == */
+    "editor.fontSize": 18,
+    "editor.lineHeight": 30,
+    "editor.padding.top": 20,
+    "editor.lineNumbers": "on",
+    "editor.fontWeight": "400",
+    "editor.letterSpacing": 0.2,
+    "editor.fontLigatures": true,
+    "editor.smoothScrolling": true,
+    "editor.matchBrackets": "never",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.cursorBlinking": "smooth",
+    "editor.selectionHighlight": false,
+    "editor.renderFinalNewline": "off",
+    "editor.guides.bracketPairs": true,
+    "editor.overviewRulerBorder": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "editor.find.cursorMoveOnType": true,
+    "editor.occurrencesHighlight": "off",
+    "editor.scrollBeyondLastLine": false,
+    "editor.parameterHints.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "Monolisa, Dank Mono, JetBrains Mono, Fira Code, Consolas, 'Courier New', monospace",
+
+    "editor.unicodeHighlight.nonBasicASCII": false,
+
+    /* == EDITOR: FORMATTING & SAVE ACTIONS == */
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit",
+        "source.sortImports": "explicit",
+    },
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+
+    /* == EDITOR: SUGGESTIONS & COMPLETIONS == */
+    "editor.quickSuggestions": {
+        "strings": true,
+    },
+    "editor.suggestSelection": "first",
+
+    /* == EDITOR: TABS & INDENTATION == */
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.largeFileOptimizations": true,
+    "editor.mouseWheelZoom": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+
+    /* == FILES & EXPLORER == */
+    "explorer.compactFolders": false,
+    "files.exclude": {
+        ".git": true,
+        ".vscode": true,
+        "**/.directory": true,
+        "**/.DS_Store": true,
+        "**/.git": false,
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    /* == TERMINAL == */
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "none",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font','SF Mono',monospace",
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.defaultLocation": "view",
+    "terminal.integrated.scrollback": 1000,
+
+    /* == GIT == */
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+
+    /* == INTELLISENSE / LANGUAGES == */
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact",
+    },
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    /* == FORMATTING & LINTING == */
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "prettier.printWidth": 100,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "all",
+    "prettier.useTabs": false,
+
+    "editor.maxTokenizationLineLength": 900000,
+
+    /* == EXTENSIONS CONFIG == */
+    "liveServer.settings.host": "127.0.0.1",
+    "liveServer.settings.wait": 500,
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+        "typescript": "javascript",
+        "typescriptreact": "javascript",
+    },
+
+    /* == SECURITY & PRIVACY == */
+    "security.workspace.trust.untrustedFiles": "newWindow",
+
+    /* == BREADCRUMBS == */
+    "breadcrumbs.enabled": false,
+
+    /* == LANGUAGE SPECIFIC FORMATTING == */
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+    },
+    "editor.linkedEditing": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java",
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+    },
+    "livePreview.defaultPreviewPath": "/home/ranjit/Desktop/index.html",
+    "[latex]": {
+        "editor.defaultFormatter": "mathematic.vscode-latex",
+    },
+    "hediet.vscode-drawio.resizeImages": null,
+    "window.customTitleBarVisibility": "never",
+    "window.menuBarVisibility": "toggle",
+    "workbench.editor.empty.hint": "hidden",
+    "terminal.integrated.tabs.location": "left",
+    "files.autoSave": "afterDelay",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+    },
+    "typescript.experimental.useTsgo": true,
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma",
+    },
+    "terminal.integrated.fontSize": 18,
+    "workbench.settings.applyToAllProfiles": [
+
+    ],
+}
